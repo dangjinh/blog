@@ -1,0 +1,686 @@
+2018-12-25 16:09:35.717 [restartedMain] INFO  com.my.blog.website.CoreApplication - Starting CoreApplication on DangJinhu with PID 8880 (F:\GitHub_Stu\blog-master\target\classes started by dangj in F:\GitHub_Stu\blog-master)
+2018-12-25 16:09:35.718 [restartedMain] DEBUG com.my.blog.website.CoreApplication - Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-12-25 16:09:35.718 [restartedMain] INFO  com.my.blog.website.CoreApplication - The following profiles are active: jdbc
+2018-12-25 16:09:35.866 [background-preinit] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2018-12-25 16:09:35.866 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.4.Final
+2018-12-25 16:09:35.917 [background-preinit] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-25 16:09:36.347 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\AttachVoMapper.class]
+2018-12-25 16:09:36.347 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\CommentVoMapper.class]
+2018-12-25 16:09:36.347 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\ContentVoMapper.class]
+2018-12-25 16:09:36.347 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\LogVoMapper.class]
+2018-12-25 16:09:36.348 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\MetaVoMapper.class]
+2018-12-25 16:09:36.348 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\OptionVoMapper.class]
+2018-12-25 16:09:36.348 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\RelationshipVoMapper.class]
+2018-12-25 16:09:36.348 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\UserVoMapper.class]
+2018-12-25 16:09:36.348 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'attachVoMapper' and 'com.my.blog.website.dao.AttachVoMapper' mapperInterface
+2018-12-25 16:09:36.349 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'attachVoMapper'.
+2018-12-25 16:09:36.349 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'commentVoMapper' and 'com.my.blog.website.dao.CommentVoMapper' mapperInterface
+2018-12-25 16:09:36.349 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'commentVoMapper'.
+2018-12-25 16:09:36.349 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'contentVoMapper' and 'com.my.blog.website.dao.ContentVoMapper' mapperInterface
+2018-12-25 16:09:36.349 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'contentVoMapper'.
+2018-12-25 16:09:36.349 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'logVoMapper' and 'com.my.blog.website.dao.LogVoMapper' mapperInterface
+2018-12-25 16:09:36.349 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'logVoMapper'.
+2018-12-25 16:09:36.349 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'metaVoMapper' and 'com.my.blog.website.dao.MetaVoMapper' mapperInterface
+2018-12-25 16:09:36.349 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'metaVoMapper'.
+2018-12-25 16:09:36.349 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'optionVoMapper' and 'com.my.blog.website.dao.OptionVoMapper' mapperInterface
+2018-12-25 16:09:36.349 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'optionVoMapper'.
+2018-12-25 16:09:36.351 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'relationshipVoMapper' and 'com.my.blog.website.dao.RelationshipVoMapper' mapperInterface
+2018-12-25 16:09:36.351 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'relationshipVoMapper'.
+2018-12-25 16:09:36.351 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userVoMapper' and 'com.my.blog.website.dao.UserVoMapper' mapperInterface
+2018-12-25 16:09:36.351 [restartedMain] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userVoMapper'.
+2018-12-25 16:09:36.696 [restartedMain] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-25 16:09:36.705 [restartedMain] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-25 16:09:36.708 [restartedMain] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-12-25 16:09:36.709 [restartedMain] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-12-25 16:09:36.709 [restartedMain] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy64
+2018-12-25 16:09:36.710 [restartedMain] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-12-25 16:09:36.710 [restartedMain] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2018-12-25 16:09:36.711 [restartedMain] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2018-12-25 16:09:36.711 [restartedMain] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-12-25 16:09:36.711 [restartedMain] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-12-25 16:09:36.872 [restartedMain] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-25 16:09:36.873 [restartedMain] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-25 16:09:36.873 [restartedMain] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-12-25 16:09:36.873 [restartedMain] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-12-25 16:09:36.873 [restartedMain] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy64
+2018-12-25 16:09:36.873 [restartedMain] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-12-25 16:09:36.873 [restartedMain] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2018-12-25 16:09:36.873 [restartedMain] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2018-12-25 16:09:36.874 [restartedMain] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-12-25 16:09:36.874 [restartedMain] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-12-25 16:09:37.838 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-12-25 16:09:37.886 [restartedMain] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2018-12-25 16:09:37.980 [restartedMain] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\AttachVoMapper.xml]'
+2018-12-25 16:09:37.999 [restartedMain] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\CommentVoMapper.xml]'
+2018-12-25 16:09:38.014 [restartedMain] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\ContentVoMapper.xml]'
+2018-12-25 16:09:38.024 [restartedMain] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\LogVoMapper.xml]'
+2018-12-25 16:09:38.034 [restartedMain] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\MetaVoMapper.xml]'
+2018-12-25 16:09:38.043 [restartedMain] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\OptionVoMapper.xml]'
+2018-12-25 16:09:38.051 [restartedMain] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\RelationshipVoMapper.xml]'
+2018-12-25 16:09:38.060 [restartedMain] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\UserVoMapper.xml]'
+2018-12-25 16:09:38.414 [restartedMain] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-25 16:09:38.414 [restartedMain] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-12-25 16:09:38.414 [restartedMain] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-12-25 16:09:38.414 [restartedMain] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy64
+2018-12-25 16:09:38.414 [restartedMain] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-12-25 16:09:38.414 [restartedMain] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2018-12-25 16:09:38.414 [restartedMain] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2018-12-25 16:09:38.414 [restartedMain] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-12-25 16:09:38.414 [restartedMain] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-12-25 16:09:39.130 [restartedMain] INFO  com.my.blog.website.CoreApplication - Started CoreApplication in 3.622 seconds (JVM running for 4.501)
+2018-12-25 17:21:40.649 [restartedMain] INFO  com.my.blog.website.CoreApplication - Starting CoreApplication on DangJinhu with PID 13800 (F:\GitHub_Stu\blog-master\target\classes started by dangj in F:\GitHub_Stu\blog-master)
+2018-12-25 17:21:40.668 [restartedMain] DEBUG com.my.blog.website.CoreApplication - Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-12-25 17:21:40.668 [restartedMain] INFO  com.my.blog.website.CoreApplication - The following profiles are active: jdbc
+2018-12-25 17:21:40.807 [background-preinit] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2018-12-25 17:21:40.807 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.4.Final
+2018-12-25 17:21:40.835 [background-preinit] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-25 17:58:13.716 [main] INFO  com.my.blog.website.AsyncTest - Starting AsyncTest on DangJinhu with PID 13884 (started by dangj in F:\GitHub_Stu\blog-master)
+2018-12-25 17:58:13.717 [main] DEBUG com.my.blog.website.AsyncTest - Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-12-25 17:58:13.717 [main] INFO  com.my.blog.website.AsyncTest - The following profiles are active: jdbc
+2018-12-25 17:58:13.989 [background-preinit] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2018-12-25 17:58:13.990 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.4.Final
+2018-12-25 17:58:14.010 [background-preinit] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-25 17:58:15.758 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\AttachVoMapper.class]
+2018-12-25 17:58:15.758 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\CommentVoMapper.class]
+2018-12-25 17:58:15.758 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\ContentVoMapper.class]
+2018-12-25 17:58:15.759 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\LogVoMapper.class]
+2018-12-25 17:58:15.759 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\MetaVoMapper.class]
+2018-12-25 17:58:15.759 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\OptionVoMapper.class]
+2018-12-25 17:58:15.759 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\RelationshipVoMapper.class]
+2018-12-25 17:58:15.760 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\UserVoMapper.class]
+2018-12-25 17:58:15.760 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'attachVoMapper' and 'com.my.blog.website.dao.AttachVoMapper' mapperInterface
+2018-12-25 17:58:15.761 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'attachVoMapper'.
+2018-12-25 17:58:15.761 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'commentVoMapper' and 'com.my.blog.website.dao.CommentVoMapper' mapperInterface
+2018-12-25 17:58:15.761 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'commentVoMapper'.
+2018-12-25 17:58:15.761 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'contentVoMapper' and 'com.my.blog.website.dao.ContentVoMapper' mapperInterface
+2018-12-25 17:58:15.761 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'contentVoMapper'.
+2018-12-25 17:58:15.762 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'logVoMapper' and 'com.my.blog.website.dao.LogVoMapper' mapperInterface
+2018-12-25 17:58:15.762 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'logVoMapper'.
+2018-12-25 17:58:15.762 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'metaVoMapper' and 'com.my.blog.website.dao.MetaVoMapper' mapperInterface
+2018-12-25 17:58:15.762 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'metaVoMapper'.
+2018-12-25 17:58:15.762 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'optionVoMapper' and 'com.my.blog.website.dao.OptionVoMapper' mapperInterface
+2018-12-25 17:58:15.762 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'optionVoMapper'.
+2018-12-25 17:58:15.762 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'relationshipVoMapper' and 'com.my.blog.website.dao.RelationshipVoMapper' mapperInterface
+2018-12-25 17:58:15.762 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'relationshipVoMapper'.
+2018-12-25 17:58:15.762 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userVoMapper' and 'com.my.blog.website.dao.UserVoMapper' mapperInterface
+2018-12-25 17:58:15.762 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userVoMapper'.
+2018-12-25 17:58:16.319 [main] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-25 17:58:16.342 [main] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-25 17:58:16.352 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-12-25 17:58:16.352 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-12-25 17:58:16.354 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy98
+2018-12-25 17:58:16.357 [main] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-12-25 17:58:16.359 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2018-12-25 17:58:16.360 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2018-12-25 17:58:16.360 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-12-25 17:58:16.360 [main] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-12-25 17:58:16.782 [main] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-25 17:58:16.783 [main] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-25 17:58:16.783 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-12-25 17:58:16.783 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-12-25 17:58:16.783 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy98
+2018-12-25 17:58:16.783 [main] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-12-25 17:58:16.783 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2018-12-25 17:58:16.784 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2018-12-25 17:58:16.784 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-12-25 17:58:16.785 [main] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-12-25 17:58:17.429 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-12-25 17:58:17.531 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2018-12-25 17:58:17.742 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\AttachVoMapper.xml]'
+2018-12-25 17:58:17.780 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\CommentVoMapper.xml]'
+2018-12-25 17:58:17.823 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\ContentVoMapper.xml]'
+2018-12-25 17:58:17.852 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\LogVoMapper.xml]'
+2018-12-25 17:58:17.891 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\MetaVoMapper.xml]'
+2018-12-25 17:58:17.918 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\OptionVoMapper.xml]'
+2018-12-25 17:58:17.940 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\RelationshipVoMapper.xml]'
+2018-12-25 17:58:17.969 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\UserVoMapper.xml]'
+2018-12-25 17:58:18.868 [main] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-25 17:58:18.868 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-12-25 17:58:18.868 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-12-25 17:58:18.868 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy98
+2018-12-25 17:58:18.869 [main] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-12-25 17:58:18.869 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2018-12-25 17:58:18.869 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2018-12-25 17:58:18.869 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-12-25 17:58:18.869 [main] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-12-25 17:58:19.815 [main] INFO  com.my.blog.website.AsyncTest - Started AsyncTest in 6.294 seconds (JVM running for 7.104)
+2018-12-25 18:03:56.338 [main] INFO  com.my.blog.website.AsyncTest - Starting AsyncTest on DangJinhu with PID 16564 (started by dangj in F:\GitHub_Stu\blog-master)
+2018-12-25 18:03:56.339 [main] DEBUG com.my.blog.website.AsyncTest - Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-12-25 18:03:56.339 [main] INFO  com.my.blog.website.AsyncTest - The following profiles are active: jdbc
+2018-12-25 18:03:56.656 [background-preinit] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2018-12-25 18:03:56.656 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.4.Final
+2018-12-25 18:03:56.676 [background-preinit] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-25 18:03:57.086 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\AttachVoMapper.class]
+2018-12-25 18:03:57.086 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\CommentVoMapper.class]
+2018-12-25 18:03:57.086 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\ContentVoMapper.class]
+2018-12-25 18:03:57.087 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\LogVoMapper.class]
+2018-12-25 18:03:57.087 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\MetaVoMapper.class]
+2018-12-25 18:03:57.087 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\OptionVoMapper.class]
+2018-12-25 18:03:57.087 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\RelationshipVoMapper.class]
+2018-12-25 18:03:57.088 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\UserVoMapper.class]
+2018-12-25 18:03:57.088 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'attachVoMapper' and 'com.my.blog.website.dao.AttachVoMapper' mapperInterface
+2018-12-25 18:03:57.088 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'attachVoMapper'.
+2018-12-25 18:03:57.088 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'commentVoMapper' and 'com.my.blog.website.dao.CommentVoMapper' mapperInterface
+2018-12-25 18:03:57.088 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'commentVoMapper'.
+2018-12-25 18:03:57.088 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'contentVoMapper' and 'com.my.blog.website.dao.ContentVoMapper' mapperInterface
+2018-12-25 18:03:57.088 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'contentVoMapper'.
+2018-12-25 18:03:57.088 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'logVoMapper' and 'com.my.blog.website.dao.LogVoMapper' mapperInterface
+2018-12-25 18:03:57.089 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'logVoMapper'.
+2018-12-25 18:03:57.089 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'metaVoMapper' and 'com.my.blog.website.dao.MetaVoMapper' mapperInterface
+2018-12-25 18:03:57.089 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'metaVoMapper'.
+2018-12-25 18:03:57.089 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'optionVoMapper' and 'com.my.blog.website.dao.OptionVoMapper' mapperInterface
+2018-12-25 18:03:57.089 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'optionVoMapper'.
+2018-12-25 18:03:57.089 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'relationshipVoMapper' and 'com.my.blog.website.dao.RelationshipVoMapper' mapperInterface
+2018-12-25 18:03:57.089 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'relationshipVoMapper'.
+2018-12-25 18:03:57.089 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userVoMapper' and 'com.my.blog.website.dao.UserVoMapper' mapperInterface
+2018-12-25 18:03:57.089 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userVoMapper'.
+2018-12-25 18:03:57.692 [main] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-25 18:03:57.709 [main] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-25 18:03:57.714 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-12-25 18:03:57.715 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-12-25 18:03:57.716 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy98
+2018-12-25 18:03:57.719 [main] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-12-25 18:03:57.721 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2018-12-25 18:03:57.721 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2018-12-25 18:03:57.721 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-12-25 18:03:57.721 [main] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-12-25 18:03:58.046 [main] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-25 18:03:58.047 [main] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-25 18:03:58.047 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-12-25 18:03:58.047 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-12-25 18:03:58.047 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy98
+2018-12-25 18:03:58.047 [main] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-12-25 18:03:58.047 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2018-12-25 18:03:58.047 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2018-12-25 18:03:58.048 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-12-25 18:03:58.048 [main] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-12-25 18:03:59.638 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-12-25 18:03:59.883 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2018-12-25 18:04:00.674 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\AttachVoMapper.xml]'
+2018-12-25 18:04:00.699 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\CommentVoMapper.xml]'
+2018-12-25 18:04:00.722 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\ContentVoMapper.xml]'
+2018-12-25 18:04:00.735 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\LogVoMapper.xml]'
+2018-12-25 18:04:00.752 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\MetaVoMapper.xml]'
+2018-12-25 18:04:00.767 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\OptionVoMapper.xml]'
+2018-12-25 18:04:00.781 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\RelationshipVoMapper.xml]'
+2018-12-25 18:04:00.792 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\UserVoMapper.xml]'
+2018-12-25 18:04:01.575 [main] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-25 18:04:01.575 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-12-25 18:04:01.575 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-12-25 18:04:01.575 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy98
+2018-12-25 18:04:01.575 [main] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-12-25 18:04:01.575 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2018-12-25 18:04:01.576 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2018-12-25 18:04:01.576 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-12-25 18:04:01.576 [main] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-12-25 18:04:02.625 [main] INFO  com.my.blog.website.AsyncTest - Started AsyncTest in 6.54 seconds (JVM running for 7.402)
+2018-12-25 18:04:56.517 [main] INFO  com.my.blog.website.AsyncTest - Starting AsyncTest on DangJinhu with PID 18364 (started by dangj in F:\GitHub_Stu\blog-master)
+2018-12-25 18:04:56.518 [main] DEBUG com.my.blog.website.AsyncTest - Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-12-25 18:04:56.518 [main] INFO  com.my.blog.website.AsyncTest - The following profiles are active: jdbc
+2018-12-25 18:04:56.815 [background-preinit] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2018-12-25 18:04:56.816 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.4.Final
+2018-12-25 18:04:56.835 [background-preinit] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-25 18:04:57.204 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\AttachVoMapper.class]
+2018-12-25 18:04:57.205 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\CommentVoMapper.class]
+2018-12-25 18:04:57.205 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\ContentVoMapper.class]
+2018-12-25 18:04:57.205 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\LogVoMapper.class]
+2018-12-25 18:04:57.205 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\MetaVoMapper.class]
+2018-12-25 18:04:57.206 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\OptionVoMapper.class]
+2018-12-25 18:04:57.206 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\RelationshipVoMapper.class]
+2018-12-25 18:04:57.206 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\UserVoMapper.class]
+2018-12-25 18:04:57.206 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'attachVoMapper' and 'com.my.blog.website.dao.AttachVoMapper' mapperInterface
+2018-12-25 18:04:57.206 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'attachVoMapper'.
+2018-12-25 18:04:57.206 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'commentVoMapper' and 'com.my.blog.website.dao.CommentVoMapper' mapperInterface
+2018-12-25 18:04:57.207 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'commentVoMapper'.
+2018-12-25 18:04:57.207 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'contentVoMapper' and 'com.my.blog.website.dao.ContentVoMapper' mapperInterface
+2018-12-25 18:04:57.207 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'contentVoMapper'.
+2018-12-25 18:04:57.207 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'logVoMapper' and 'com.my.blog.website.dao.LogVoMapper' mapperInterface
+2018-12-25 18:04:57.207 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'logVoMapper'.
+2018-12-25 18:04:57.207 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'metaVoMapper' and 'com.my.blog.website.dao.MetaVoMapper' mapperInterface
+2018-12-25 18:04:57.207 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'metaVoMapper'.
+2018-12-25 18:04:57.207 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'optionVoMapper' and 'com.my.blog.website.dao.OptionVoMapper' mapperInterface
+2018-12-25 18:04:57.207 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'optionVoMapper'.
+2018-12-25 18:04:57.207 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'relationshipVoMapper' and 'com.my.blog.website.dao.RelationshipVoMapper' mapperInterface
+2018-12-25 18:04:57.207 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'relationshipVoMapper'.
+2018-12-25 18:04:57.207 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userVoMapper' and 'com.my.blog.website.dao.UserVoMapper' mapperInterface
+2018-12-25 18:04:57.207 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userVoMapper'.
+2018-12-25 18:04:57.807 [main] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-25 18:04:57.823 [main] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-25 18:04:57.827 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-12-25 18:04:57.827 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-12-25 18:04:57.828 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy98
+2018-12-25 18:04:57.830 [main] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-12-25 18:04:57.831 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2018-12-25 18:04:57.832 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2018-12-25 18:04:57.832 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-12-25 18:04:57.832 [main] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-12-25 18:04:58.146 [main] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-25 18:04:58.147 [main] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-25 18:04:58.147 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-12-25 18:04:58.147 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-12-25 18:04:58.147 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy98
+2018-12-25 18:04:58.147 [main] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-12-25 18:04:58.147 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2018-12-25 18:04:58.148 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2018-12-25 18:04:58.148 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-12-25 18:04:58.148 [main] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-12-25 18:04:58.613 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-12-25 18:04:58.716 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2018-12-25 18:04:58.863 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\AttachVoMapper.xml]'
+2018-12-25 18:04:58.888 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\CommentVoMapper.xml]'
+2018-12-25 18:04:58.919 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\ContentVoMapper.xml]'
+2018-12-25 18:04:58.938 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\LogVoMapper.xml]'
+2018-12-25 18:04:58.959 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\MetaVoMapper.xml]'
+2018-12-25 18:04:58.970 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\OptionVoMapper.xml]'
+2018-12-25 18:04:58.978 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\RelationshipVoMapper.xml]'
+2018-12-25 18:04:58.991 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\UserVoMapper.xml]'
+2018-12-25 18:04:59.771 [main] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-25 18:04:59.772 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-12-25 18:04:59.772 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-12-25 18:04:59.772 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy98
+2018-12-25 18:04:59.772 [main] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-12-25 18:04:59.772 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2018-12-25 18:04:59.772 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2018-12-25 18:04:59.772 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-12-25 18:04:59.772 [main] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-12-25 18:05:00.682 [main] INFO  com.my.blog.website.AsyncTest - Started AsyncTest in 4.386 seconds (JVM running for 5.207)
+2018-12-25 18:25:47.642 [main] INFO  com.my.blog.website.AsyncTest - Starting AsyncTest on DangJinhu with PID 15108 (started by dangj in F:\GitHub_Stu\blog-master)
+2018-12-25 18:25:47.644 [main] DEBUG com.my.blog.website.AsyncTest - Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-12-25 18:25:47.644 [main] INFO  com.my.blog.website.AsyncTest - The following profiles are active: jdbc
+2018-12-25 18:25:47.900 [background-preinit] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2018-12-25 18:25:47.901 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.4.Final
+2018-12-25 18:25:47.924 [background-preinit] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-25 18:25:48.334 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\AttachVoMapper.class]
+2018-12-25 18:25:48.335 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\CommentVoMapper.class]
+2018-12-25 18:25:48.335 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\ContentVoMapper.class]
+2018-12-25 18:25:48.335 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\LogVoMapper.class]
+2018-12-25 18:25:48.336 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\MetaVoMapper.class]
+2018-12-25 18:25:48.336 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\OptionVoMapper.class]
+2018-12-25 18:25:48.336 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\RelationshipVoMapper.class]
+2018-12-25 18:25:48.337 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\UserVoMapper.class]
+2018-12-25 18:25:48.337 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'attachVoMapper' and 'com.my.blog.website.dao.AttachVoMapper' mapperInterface
+2018-12-25 18:25:48.337 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'attachVoMapper'.
+2018-12-25 18:25:48.337 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'commentVoMapper' and 'com.my.blog.website.dao.CommentVoMapper' mapperInterface
+2018-12-25 18:25:48.337 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'commentVoMapper'.
+2018-12-25 18:25:48.337 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'contentVoMapper' and 'com.my.blog.website.dao.ContentVoMapper' mapperInterface
+2018-12-25 18:25:48.337 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'contentVoMapper'.
+2018-12-25 18:25:48.337 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'logVoMapper' and 'com.my.blog.website.dao.LogVoMapper' mapperInterface
+2018-12-25 18:25:48.338 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'logVoMapper'.
+2018-12-25 18:25:48.338 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'metaVoMapper' and 'com.my.blog.website.dao.MetaVoMapper' mapperInterface
+2018-12-25 18:25:48.338 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'metaVoMapper'.
+2018-12-25 18:25:48.338 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'optionVoMapper' and 'com.my.blog.website.dao.OptionVoMapper' mapperInterface
+2018-12-25 18:25:48.338 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'optionVoMapper'.
+2018-12-25 18:25:48.338 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'relationshipVoMapper' and 'com.my.blog.website.dao.RelationshipVoMapper' mapperInterface
+2018-12-25 18:25:48.338 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'relationshipVoMapper'.
+2018-12-25 18:25:48.338 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userVoMapper' and 'com.my.blog.website.dao.UserVoMapper' mapperInterface
+2018-12-25 18:25:48.338 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userVoMapper'.
+2018-12-25 18:25:48.898 [main] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-25 18:25:48.913 [main] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-25 18:25:48.917 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-12-25 18:25:48.917 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-12-25 18:25:48.918 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy98
+2018-12-25 18:25:48.919 [main] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-12-25 18:25:48.920 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2018-12-25 18:25:48.920 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2018-12-25 18:25:48.920 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-12-25 18:25:48.921 [main] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-12-25 18:25:49.235 [main] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-25 18:25:49.236 [main] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-25 18:25:49.236 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-12-25 18:25:49.236 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-12-25 18:25:49.236 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy98
+2018-12-25 18:25:49.236 [main] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-12-25 18:25:49.236 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2018-12-25 18:25:49.236 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2018-12-25 18:25:49.236 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-12-25 18:25:49.237 [main] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-12-25 18:25:49.783 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-12-25 18:25:49.877 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2018-12-25 18:25:50.013 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\AttachVoMapper.xml]'
+2018-12-25 18:25:50.042 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\CommentVoMapper.xml]'
+2018-12-25 18:25:50.070 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\ContentVoMapper.xml]'
+2018-12-25 18:25:50.087 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\LogVoMapper.xml]'
+2018-12-25 18:25:50.104 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\MetaVoMapper.xml]'
+2018-12-25 18:25:50.115 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\OptionVoMapper.xml]'
+2018-12-25 18:25:50.123 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\RelationshipVoMapper.xml]'
+2018-12-25 18:25:50.134 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\UserVoMapper.xml]'
+2018-12-25 18:25:50.900 [main] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-25 18:25:50.900 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-12-25 18:25:50.900 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-12-25 18:25:50.900 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy98
+2018-12-25 18:25:50.900 [main] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-12-25 18:25:50.900 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2018-12-25 18:25:50.901 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2018-12-25 18:25:50.901 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-12-25 18:25:50.901 [main] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-12-25 18:25:51.793 [main] INFO  com.my.blog.website.AsyncTest - Started AsyncTest in 4.35 seconds (JVM running for 5.173)
+2018-12-25 18:29:42.118 [main] INFO  com.my.blog.website.AsyncTest - Starting AsyncTest on DangJinhu with PID 16736 (started by dangj in F:\GitHub_Stu\blog-master)
+2018-12-25 18:29:42.118 [main] DEBUG com.my.blog.website.AsyncTest - Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-12-25 18:29:42.118 [main] INFO  com.my.blog.website.AsyncTest - The following profiles are active: jdbc
+2018-12-25 18:29:42.389 [background-preinit] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2018-12-25 18:29:42.390 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.4.Final
+2018-12-25 18:29:42.407 [background-preinit] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-25 18:29:42.779 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\AttachVoMapper.class]
+2018-12-25 18:29:42.779 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\CommentVoMapper.class]
+2018-12-25 18:29:42.780 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\ContentVoMapper.class]
+2018-12-25 18:29:42.780 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\LogVoMapper.class]
+2018-12-25 18:29:42.780 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\MetaVoMapper.class]
+2018-12-25 18:29:42.781 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\OptionVoMapper.class]
+2018-12-25 18:29:42.781 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\RelationshipVoMapper.class]
+2018-12-25 18:29:42.781 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\UserVoMapper.class]
+2018-12-25 18:29:42.782 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'attachVoMapper' and 'com.my.blog.website.dao.AttachVoMapper' mapperInterface
+2018-12-25 18:29:42.782 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'attachVoMapper'.
+2018-12-25 18:29:42.782 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'commentVoMapper' and 'com.my.blog.website.dao.CommentVoMapper' mapperInterface
+2018-12-25 18:29:42.782 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'commentVoMapper'.
+2018-12-25 18:29:42.782 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'contentVoMapper' and 'com.my.blog.website.dao.ContentVoMapper' mapperInterface
+2018-12-25 18:29:42.782 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'contentVoMapper'.
+2018-12-25 18:29:42.782 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'logVoMapper' and 'com.my.blog.website.dao.LogVoMapper' mapperInterface
+2018-12-25 18:29:42.782 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'logVoMapper'.
+2018-12-25 18:29:42.782 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'metaVoMapper' and 'com.my.blog.website.dao.MetaVoMapper' mapperInterface
+2018-12-25 18:29:42.783 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'metaVoMapper'.
+2018-12-25 18:29:42.783 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'optionVoMapper' and 'com.my.blog.website.dao.OptionVoMapper' mapperInterface
+2018-12-25 18:29:42.783 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'optionVoMapper'.
+2018-12-25 18:29:42.783 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'relationshipVoMapper' and 'com.my.blog.website.dao.RelationshipVoMapper' mapperInterface
+2018-12-25 18:29:42.783 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'relationshipVoMapper'.
+2018-12-25 18:29:42.783 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userVoMapper' and 'com.my.blog.website.dao.UserVoMapper' mapperInterface
+2018-12-25 18:29:42.783 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userVoMapper'.
+2018-12-25 18:29:43.380 [main] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-25 18:29:43.398 [main] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-25 18:29:43.403 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-12-25 18:29:43.403 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-12-25 18:29:43.404 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy98
+2018-12-25 18:29:43.406 [main] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-12-25 18:29:43.407 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2018-12-25 18:29:43.408 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2018-12-25 18:29:43.408 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-12-25 18:29:43.408 [main] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-12-25 18:29:43.714 [main] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-25 18:29:43.714 [main] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-25 18:29:43.715 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-12-25 18:29:43.715 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-12-25 18:29:43.715 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy98
+2018-12-25 18:29:43.715 [main] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-12-25 18:29:43.715 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2018-12-25 18:29:43.715 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2018-12-25 18:29:43.715 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-12-25 18:29:43.715 [main] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-12-25 18:29:44.255 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-12-25 18:29:44.364 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2018-12-25 18:29:44.502 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\AttachVoMapper.xml]'
+2018-12-25 18:29:44.532 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\CommentVoMapper.xml]'
+2018-12-25 18:29:44.560 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\ContentVoMapper.xml]'
+2018-12-25 18:29:44.575 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\LogVoMapper.xml]'
+2018-12-25 18:29:44.590 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\MetaVoMapper.xml]'
+2018-12-25 18:29:44.602 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\OptionVoMapper.xml]'
+2018-12-25 18:29:44.610 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\RelationshipVoMapper.xml]'
+2018-12-25 18:29:44.622 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\UserVoMapper.xml]'
+2018-12-25 18:29:49.824 [main] INFO  com.my.blog.website.AsyncTest - Starting AsyncTest on DangJinhu with PID 13844 (started by dangj in F:\GitHub_Stu\blog-master)
+2018-12-25 18:29:49.825 [main] DEBUG com.my.blog.website.AsyncTest - Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-12-25 18:29:49.825 [main] INFO  com.my.blog.website.AsyncTest - The following profiles are active: jdbc
+2018-12-25 18:29:50.081 [background-preinit] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2018-12-25 18:29:50.082 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.4.Final
+2018-12-25 18:29:50.103 [background-preinit] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-25 18:29:50.482 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\AttachVoMapper.class]
+2018-12-25 18:29:50.482 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\CommentVoMapper.class]
+2018-12-25 18:29:50.483 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\ContentVoMapper.class]
+2018-12-25 18:29:50.483 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\LogVoMapper.class]
+2018-12-25 18:29:50.483 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\MetaVoMapper.class]
+2018-12-25 18:29:50.483 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\OptionVoMapper.class]
+2018-12-25 18:29:50.484 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\RelationshipVoMapper.class]
+2018-12-25 18:29:50.484 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\UserVoMapper.class]
+2018-12-25 18:29:50.484 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'attachVoMapper' and 'com.my.blog.website.dao.AttachVoMapper' mapperInterface
+2018-12-25 18:29:50.484 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'attachVoMapper'.
+2018-12-25 18:29:50.484 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'commentVoMapper' and 'com.my.blog.website.dao.CommentVoMapper' mapperInterface
+2018-12-25 18:29:50.484 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'commentVoMapper'.
+2018-12-25 18:29:50.484 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'contentVoMapper' and 'com.my.blog.website.dao.ContentVoMapper' mapperInterface
+2018-12-25 18:29:50.484 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'contentVoMapper'.
+2018-12-25 18:29:50.484 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'logVoMapper' and 'com.my.blog.website.dao.LogVoMapper' mapperInterface
+2018-12-25 18:29:50.484 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'logVoMapper'.
+2018-12-25 18:29:50.484 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'metaVoMapper' and 'com.my.blog.website.dao.MetaVoMapper' mapperInterface
+2018-12-25 18:29:50.485 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'metaVoMapper'.
+2018-12-25 18:29:50.485 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'optionVoMapper' and 'com.my.blog.website.dao.OptionVoMapper' mapperInterface
+2018-12-25 18:29:50.485 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'optionVoMapper'.
+2018-12-25 18:29:50.485 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'relationshipVoMapper' and 'com.my.blog.website.dao.RelationshipVoMapper' mapperInterface
+2018-12-25 18:29:50.485 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'relationshipVoMapper'.
+2018-12-25 18:29:50.485 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userVoMapper' and 'com.my.blog.website.dao.UserVoMapper' mapperInterface
+2018-12-25 18:29:50.485 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userVoMapper'.
+2018-12-25 18:29:51.081 [main] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-25 18:29:51.099 [main] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-25 18:29:51.104 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-12-25 18:29:51.105 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-12-25 18:29:51.106 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy98
+2018-12-25 18:29:51.107 [main] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-12-25 18:29:51.108 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2018-12-25 18:29:51.108 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2018-12-25 18:29:51.108 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-12-25 18:29:51.108 [main] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-12-25 18:29:51.419 [main] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-25 18:29:51.420 [main] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-25 18:29:51.420 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-12-25 18:29:51.420 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-12-25 18:29:51.420 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy98
+2018-12-25 18:29:51.420 [main] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-12-25 18:29:51.420 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2018-12-25 18:29:51.421 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2018-12-25 18:29:51.421 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-12-25 18:29:51.421 [main] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-12-25 18:29:51.910 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-12-25 18:29:51.993 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2018-12-25 18:29:52.123 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\AttachVoMapper.xml]'
+2018-12-25 18:29:52.154 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\CommentVoMapper.xml]'
+2018-12-25 18:29:52.180 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\ContentVoMapper.xml]'
+2018-12-25 18:29:52.200 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\LogVoMapper.xml]'
+2018-12-25 18:29:52.223 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\MetaVoMapper.xml]'
+2018-12-25 18:29:52.241 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\OptionVoMapper.xml]'
+2018-12-25 18:29:52.254 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\RelationshipVoMapper.xml]'
+2018-12-25 18:29:52.272 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\UserVoMapper.xml]'
+2018-12-25 18:29:58.549 [main] INFO  com.my.blog.website.AsyncTest - Starting AsyncTest on DangJinhu with PID 3664 (started by dangj in F:\GitHub_Stu\blog-master)
+2018-12-25 18:29:58.550 [main] DEBUG com.my.blog.website.AsyncTest - Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-12-25 18:29:58.550 [main] INFO  com.my.blog.website.AsyncTest - The following profiles are active: jdbc
+2018-12-25 18:29:58.811 [background-preinit] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2018-12-25 18:29:58.811 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.4.Final
+2018-12-25 18:29:58.836 [background-preinit] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-25 18:29:59.277 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\AttachVoMapper.class]
+2018-12-25 18:29:59.278 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\CommentVoMapper.class]
+2018-12-25 18:29:59.278 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\ContentVoMapper.class]
+2018-12-25 18:29:59.278 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\LogVoMapper.class]
+2018-12-25 18:29:59.278 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\MetaVoMapper.class]
+2018-12-25 18:29:59.279 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\OptionVoMapper.class]
+2018-12-25 18:29:59.279 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\RelationshipVoMapper.class]
+2018-12-25 18:29:59.279 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\UserVoMapper.class]
+2018-12-25 18:29:59.280 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'attachVoMapper' and 'com.my.blog.website.dao.AttachVoMapper' mapperInterface
+2018-12-25 18:29:59.280 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'attachVoMapper'.
+2018-12-25 18:29:59.280 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'commentVoMapper' and 'com.my.blog.website.dao.CommentVoMapper' mapperInterface
+2018-12-25 18:29:59.280 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'commentVoMapper'.
+2018-12-25 18:29:59.280 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'contentVoMapper' and 'com.my.blog.website.dao.ContentVoMapper' mapperInterface
+2018-12-25 18:29:59.280 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'contentVoMapper'.
+2018-12-25 18:29:59.281 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'logVoMapper' and 'com.my.blog.website.dao.LogVoMapper' mapperInterface
+2018-12-25 18:29:59.281 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'logVoMapper'.
+2018-12-25 18:29:59.281 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'metaVoMapper' and 'com.my.blog.website.dao.MetaVoMapper' mapperInterface
+2018-12-25 18:29:59.281 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'metaVoMapper'.
+2018-12-25 18:29:59.281 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'optionVoMapper' and 'com.my.blog.website.dao.OptionVoMapper' mapperInterface
+2018-12-25 18:29:59.281 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'optionVoMapper'.
+2018-12-25 18:29:59.281 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'relationshipVoMapper' and 'com.my.blog.website.dao.RelationshipVoMapper' mapperInterface
+2018-12-25 18:29:59.281 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'relationshipVoMapper'.
+2018-12-25 18:29:59.281 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userVoMapper' and 'com.my.blog.website.dao.UserVoMapper' mapperInterface
+2018-12-25 18:29:59.281 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userVoMapper'.
+2018-12-25 18:29:59.956 [main] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-25 18:29:59.974 [main] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-25 18:29:59.978 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-12-25 18:29:59.978 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-12-25 18:29:59.979 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy98
+2018-12-25 18:29:59.980 [main] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-12-25 18:29:59.981 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2018-12-25 18:29:59.981 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2018-12-25 18:29:59.981 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-12-25 18:29:59.982 [main] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-12-25 18:30:00.323 [main] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-25 18:30:00.324 [main] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-25 18:30:00.324 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-12-25 18:30:00.324 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-12-25 18:30:00.324 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy98
+2018-12-25 18:30:00.325 [main] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-12-25 18:30:00.325 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2018-12-25 18:30:00.325 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2018-12-25 18:30:00.325 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-12-25 18:30:00.325 [main] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-12-25 18:30:00.856 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-12-25 18:30:00.947 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2018-12-25 18:30:01.066 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\AttachVoMapper.xml]'
+2018-12-25 18:30:01.094 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\CommentVoMapper.xml]'
+2018-12-25 18:30:01.117 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\ContentVoMapper.xml]'
+2018-12-25 18:30:01.135 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\LogVoMapper.xml]'
+2018-12-25 18:30:01.155 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\MetaVoMapper.xml]'
+2018-12-25 18:30:01.171 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\OptionVoMapper.xml]'
+2018-12-25 18:30:01.184 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\RelationshipVoMapper.xml]'
+2018-12-25 18:30:01.199 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\UserVoMapper.xml]'
+2018-12-25 18:30:02.001 [main] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-25 18:30:02.002 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-12-25 18:30:02.002 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-12-25 18:30:02.002 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy98
+2018-12-25 18:30:02.002 [main] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-12-25 18:30:02.002 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2018-12-25 18:30:02.002 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2018-12-25 18:30:02.002 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-12-25 18:30:02.002 [main] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-12-25 18:30:02.986 [main] INFO  com.my.blog.website.AsyncTest - Started AsyncTest in 4.638 seconds (JVM running for 5.468)
+2018-12-25 18:31:21.134 [main] INFO  com.my.blog.website.AsyncTest - Starting AsyncTest on DangJinhu with PID 10592 (started by dangj in F:\GitHub_Stu\blog-master)
+2018-12-25 18:31:21.134 [main] DEBUG com.my.blog.website.AsyncTest - Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-12-25 18:31:21.134 [main] INFO  com.my.blog.website.AsyncTest - The following profiles are active: jdbc
+2018-12-25 18:31:21.478 [background-preinit] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2018-12-25 18:31:21.479 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.4.Final
+2018-12-25 18:31:21.498 [background-preinit] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-25 18:31:21.874 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\AttachVoMapper.class]
+2018-12-25 18:31:21.874 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\CommentVoMapper.class]
+2018-12-25 18:31:21.874 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\ContentVoMapper.class]
+2018-12-25 18:31:21.875 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\LogVoMapper.class]
+2018-12-25 18:31:21.875 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\MetaVoMapper.class]
+2018-12-25 18:31:21.875 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\OptionVoMapper.class]
+2018-12-25 18:31:21.875 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\RelationshipVoMapper.class]
+2018-12-25 18:31:21.875 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\UserVoMapper.class]
+2018-12-25 18:31:21.876 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'attachVoMapper' and 'com.my.blog.website.dao.AttachVoMapper' mapperInterface
+2018-12-25 18:31:21.876 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'attachVoMapper'.
+2018-12-25 18:31:21.876 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'commentVoMapper' and 'com.my.blog.website.dao.CommentVoMapper' mapperInterface
+2018-12-25 18:31:21.876 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'commentVoMapper'.
+2018-12-25 18:31:21.876 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'contentVoMapper' and 'com.my.blog.website.dao.ContentVoMapper' mapperInterface
+2018-12-25 18:31:21.876 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'contentVoMapper'.
+2018-12-25 18:31:21.876 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'logVoMapper' and 'com.my.blog.website.dao.LogVoMapper' mapperInterface
+2018-12-25 18:31:21.876 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'logVoMapper'.
+2018-12-25 18:31:21.876 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'metaVoMapper' and 'com.my.blog.website.dao.MetaVoMapper' mapperInterface
+2018-12-25 18:31:21.876 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'metaVoMapper'.
+2018-12-25 18:31:21.876 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'optionVoMapper' and 'com.my.blog.website.dao.OptionVoMapper' mapperInterface
+2018-12-25 18:31:21.877 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'optionVoMapper'.
+2018-12-25 18:31:21.877 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'relationshipVoMapper' and 'com.my.blog.website.dao.RelationshipVoMapper' mapperInterface
+2018-12-25 18:31:21.877 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'relationshipVoMapper'.
+2018-12-25 18:31:21.877 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userVoMapper' and 'com.my.blog.website.dao.UserVoMapper' mapperInterface
+2018-12-25 18:31:21.877 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userVoMapper'.
+2018-12-25 18:31:22.406 [main] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-25 18:31:22.425 [main] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-25 18:31:22.429 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-12-25 18:31:22.429 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-12-25 18:31:22.430 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy98
+2018-12-25 18:31:22.431 [main] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-12-25 18:31:22.432 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2018-12-25 18:31:22.433 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2018-12-25 18:31:22.433 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-12-25 18:31:22.433 [main] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-12-25 18:31:22.714 [main] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-25 18:31:22.715 [main] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-25 18:31:22.715 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-12-25 18:31:22.715 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-12-25 18:31:22.715 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy98
+2018-12-25 18:31:22.715 [main] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-12-25 18:31:22.715 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2018-12-25 18:31:22.715 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2018-12-25 18:31:22.715 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-12-25 18:31:22.716 [main] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-12-25 18:31:23.160 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-12-25 18:31:23.264 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2018-12-25 18:31:23.395 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\AttachVoMapper.xml]'
+2018-12-25 18:31:23.423 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\CommentVoMapper.xml]'
+2018-12-25 18:31:23.444 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\ContentVoMapper.xml]'
+2018-12-25 18:31:23.458 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\LogVoMapper.xml]'
+2018-12-25 18:31:23.476 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\MetaVoMapper.xml]'
+2018-12-25 18:31:23.489 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\OptionVoMapper.xml]'
+2018-12-25 18:31:23.498 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\RelationshipVoMapper.xml]'
+2018-12-25 18:31:23.512 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\UserVoMapper.xml]'
+2018-12-25 18:31:24.318 [main] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-25 18:31:24.318 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-12-25 18:31:24.318 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-12-25 18:31:24.318 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy98
+2018-12-25 18:31:24.318 [main] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-12-25 18:31:24.318 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2018-12-25 18:31:24.318 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2018-12-25 18:31:24.319 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-12-25 18:31:24.319 [main] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-12-25 18:31:25.442 [main] INFO  com.my.blog.website.AsyncTest - Started AsyncTest in 4.552 seconds (JVM running for 5.353)
+2018-12-26 17:33:13.572 [main] INFO  com.my.blog.website.AsyncTest - Starting AsyncTest on DangJinhu with PID 5188 (started by dangj in F:\GitHub_Stu\blog-master)
+2018-12-26 17:33:13.609 [main] DEBUG com.my.blog.website.AsyncTest - Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-12-26 17:33:13.609 [main] INFO  com.my.blog.website.AsyncTest - The following profiles are active: jdbc
+2018-12-26 17:33:14.059 [background-preinit] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+2018-12-26 17:33:14.060 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.4.Final
+2018-12-26 17:33:14.115 [background-preinit] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-26 17:33:16.353 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\AttachVoMapper.class]
+2018-12-26 17:33:16.354 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\CommentVoMapper.class]
+2018-12-26 17:33:16.354 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\ContentVoMapper.class]
+2018-12-26 17:33:16.354 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\LogVoMapper.class]
+2018-12-26 17:33:16.354 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\MetaVoMapper.class]
+2018-12-26 17:33:16.354 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\OptionVoMapper.class]
+2018-12-26 17:33:16.355 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\RelationshipVoMapper.class]
+2018-12-26 17:33:16.355 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Identified candidate component class: file [F:\GitHub_Stu\blog-master\target\classes\com\my\blog\website\dao\UserVoMapper.class]
+2018-12-26 17:33:16.355 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'attachVoMapper' and 'com.my.blog.website.dao.AttachVoMapper' mapperInterface
+2018-12-26 17:33:16.356 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'attachVoMapper'.
+2018-12-26 17:33:16.356 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'commentVoMapper' and 'com.my.blog.website.dao.CommentVoMapper' mapperInterface
+2018-12-26 17:33:16.356 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'commentVoMapper'.
+2018-12-26 17:33:16.356 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'contentVoMapper' and 'com.my.blog.website.dao.ContentVoMapper' mapperInterface
+2018-12-26 17:33:16.356 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'contentVoMapper'.
+2018-12-26 17:33:16.356 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'logVoMapper' and 'com.my.blog.website.dao.LogVoMapper' mapperInterface
+2018-12-26 17:33:16.356 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'logVoMapper'.
+2018-12-26 17:33:16.356 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'metaVoMapper' and 'com.my.blog.website.dao.MetaVoMapper' mapperInterface
+2018-12-26 17:33:16.356 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'metaVoMapper'.
+2018-12-26 17:33:16.356 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'optionVoMapper' and 'com.my.blog.website.dao.OptionVoMapper' mapperInterface
+2018-12-26 17:33:16.356 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'optionVoMapper'.
+2018-12-26 17:33:16.356 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'relationshipVoMapper' and 'com.my.blog.website.dao.RelationshipVoMapper' mapperInterface
+2018-12-26 17:33:16.356 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'relationshipVoMapper'.
+2018-12-26 17:33:16.356 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userVoMapper' and 'com.my.blog.website.dao.UserVoMapper' mapperInterface
+2018-12-26 17:33:16.356 [main] DEBUG org.mybatis.spring.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userVoMapper'.
+2018-12-26 17:33:17.145 [main] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-26 17:33:17.165 [main] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-26 17:33:17.171 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-12-26 17:33:17.171 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-12-26 17:33:17.172 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy98
+2018-12-26 17:33:17.174 [main] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-12-26 17:33:17.176 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2018-12-26 17:33:17.176 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2018-12-26 17:33:17.177 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-12-26 17:33:17.177 [main] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-12-26 17:33:17.613 [main] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-26 17:33:17.614 [main] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-26 17:33:17.614 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-12-26 17:33:17.614 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-12-26 17:33:17.615 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy98
+2018-12-26 17:33:17.615 [main] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-12-26 17:33:17.615 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2018-12-26 17:33:17.615 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2018-12-26 17:33:17.615 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-12-26 17:33:17.615 [main] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-12-26 17:33:18.618 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2018-12-26 17:33:18.788 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2018-12-26 17:33:19.216 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\AttachVoMapper.xml]'
+2018-12-26 17:33:19.290 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\CommentVoMapper.xml]'
+2018-12-26 17:33:19.347 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\ContentVoMapper.xml]'
+2018-12-26 17:33:19.393 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\LogVoMapper.xml]'
+2018-12-26 17:33:19.450 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\MetaVoMapper.xml]'
+2018-12-26 17:33:19.486 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\OptionVoMapper.xml]'
+2018-12-26 17:33:19.522 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\RelationshipVoMapper.xml]'
+2018-12-26 17:33:19.553 [main] DEBUG org.mybatis.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [F:\GitHub_Stu\blog-master\target\classes\mapper\UserVoMapper.xml]'
+2018-12-26 17:33:20.733 [main] DEBUG org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2018-12-26 17:33:20.733 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2018-12-26 17:33:20.733 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2018-12-26 17:33:20.733 [main] DEBUG org.hibernate.validator.internal.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy98
+2018-12-26 17:33:20.734 [main] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2018-12-26 17:33:20.734 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+2018-12-26 17:33:20.734 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+2018-12-26 17:33:20.734 [main] DEBUG org.hibernate.validator.internal.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2018-12-26 17:33:20.734 [main] DEBUG org.hibernate.validator.internal.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+2018-12-26 17:33:22.342 [main] INFO  com.my.blog.website.AsyncTest - Started AsyncTest in 9.203 seconds (JVM running for 11.286)
