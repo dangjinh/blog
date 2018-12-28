@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac285bae-94fe-42d1-9abc-4c1f10afcc31" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/target/logs/my-blog-db.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/logs/my-blog-db.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/logs/my-blog-info.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/logs/my-blog-info.log" afterDir="false" />
-    </list>
+    <list default="true" id="ac285bae-94fe-42d1-9abc-4c1f10afcc31" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -114,20 +111,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AsyncTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AsyncTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/my/blog/website/AsyncTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="51" column="6" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IndexControllerTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/my/blog/website/controller/IndexControllerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            <state relative-caret-position="338">
+              <caret line="55" column="10" lean-forward="true" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -154,6 +142,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -174,6 +163,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/themes/default/footer.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/admin/footer.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/my/blog/website/interceptor/BaseInterceptor.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -488,7 +478,7 @@
       <workItem from="1545732165998" duration="1839000" />
       <workItem from="1545816466434" duration="401000" />
       <workItem from="1545817520291" duration="830000" />
-      <workItem from="1545977864909" duration="2809000" />
+      <workItem from="1545977864909" duration="4113000" />
     </task>
     <task id="LOCAL-00001" summary="the first commit">
       <created>1545979102831</created>
@@ -497,11 +487,18 @@
       <option name="project" value="LOCAL" />
       <updated>1545979102831</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="the update">
+      <created>1545981204595</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1545981204595</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50874000" />
+    <option name="totallyTimeSpent" value="52178000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
@@ -589,7 +586,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="the first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="the first commit" />
+    <MESSAGE value="the update" />
+    <option name="LAST_COMMIT_MESSAGE" value="the update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -944,25 +942,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/my/blog/website/AsyncTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/my/blog/website/controller/IndexControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="51" column="6" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
+        <state relative-caret-position="264">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor />
+          <first_editor relative-caret-position="72">
+            <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/my/blog/website/controller/IndexControllerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/my/blog/website/AsyncTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        <state relative-caret-position="338">
+          <caret line="55" column="10" lean-forward="true" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
         </state>
       </provider>
     </entry>
