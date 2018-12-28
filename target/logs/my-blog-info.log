@@ -1097,3 +1097,5 @@ java.lang.NullPointerException
 2018-12-27 17:58:45.486 [http-nio-8081-exec-9] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
 2018-12-27 17:58:45.489 [http-nio-8081-exec-9] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Enter countById method:cid=8,mid=23
 2018-12-27 17:58:45.490 [http-nio-8081-exec-9] DEBUG com.my.blog.website.service.impl.RelationshipServiceImpl - Exit countById method return num=0
+2018-12-28 12:58:30.587 [http-nio-8081-exec-1] DEBUG com.my.blog.website.service.impl.ContentServiceImpl - Enter getContents method
+2018-12-28 12:58:30.761 [http-nio-8081-exec-1] DEBUG com.my.blog.website.service.impl.ContentServiceImpl - Exit getContents method
