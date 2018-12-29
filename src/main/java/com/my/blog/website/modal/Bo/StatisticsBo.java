@@ -5,10 +5,10 @@ import java.io.Serializable;
 /**
  * ************************************
  *
- * @ClassName: RestResponseBo
+ * @ClassName: StatisticsBo
  * @Auther: dangjinhu
  * @Date: 2018/2/23
- * @Description: 后台统计对象
+ * @Description:
  * @Copyright: All rights reserver.
  * ************************************
  */

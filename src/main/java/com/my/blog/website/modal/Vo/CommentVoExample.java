@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * ************************************
  *
- * @ClassName: CommentVo
+ * @ClassName: CommentVoExample
  * @Auther: dangjinhu
  * @Date: 2018/2/20
  * @Description:
