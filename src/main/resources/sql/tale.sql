@@ -315,4 +315,4 @@ CREATE TABLE `t_users` (
 -- ----------------------------
 -- Records of t_users
 -- ----------------------------
-INSERT INTO `t_users` VALUES ('1', 'dangjinhu', 'a66abb5684c45962d887564f08346e8d', 'dangjinh@163.com', null, '党金虎', '1490756162', '0', '0', 'visitor');
+INSERT INTO `t_users` VALUES ('1', 'admin', 'a66abb5684c45962d887564f08346e8d', 'dangjinh@163.com', null, '党金虎', '1490756162', '0', '0', 'visitor');
