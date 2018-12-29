@@ -16,9 +16,16 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * 自定义拦截器
- * Created by BlueT on 2017/3/9.
+ * ************************************
+ *
+ * @ClassName: BaseInterceptor
+ * @Auther: dangjinhu
+ * @Date: 2018/3/9
+ * @Description: 自定义拦截器
+ * @Copyright: All rights reserver.
+ * ************************************
  */
+
 @Component
 public class BaseInterceptor implements HandlerInterceptor {
     private static final Logger LOGGE = LoggerFactory.getLogger(BaseInterceptor.class);

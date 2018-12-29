@@ -10,9 +10,14 @@ import com.my.blog.website.modal.Vo.ContentVo;
 import java.util.List;
 
 /**
- * 站点服务
+ * ************************************
  *
- * Created by 13 on 2017/2/23.
+ * @InterfaceName: ISiteService
+ * @Auther: dangjinhu
+ * @Date: 2018/3/20
+ * @Description:
+ * @Copyright: All rights reserver.
+ * ************************************
  */
 public interface ISiteService {
 

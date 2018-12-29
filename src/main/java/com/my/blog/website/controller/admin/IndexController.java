@@ -28,9 +28,16 @@ import javax.servlet.http.HttpSession;
 import java.util.List;
 
 /**
- * 后台管理首页
- * Created by Administrator on 2017/3/9 009.
+ * ************************************
+ *
+ * @ClassName: IndexController
+ * @Auther: dangjinhu
+ * @Date: 2018/2/21
+ * @Description: 后台管理首页
+ * @Copyright: All rights reserver.
+ * ************************************
  */
+
 @Controller("adminIndexController")
 @RequestMapping("/admin")
 @Transactional(rollbackFor = TipException.class)

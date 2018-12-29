@@ -2,6 +2,9 @@ package com.my.blog.website.utils.backup.db;
 
 import java.util.ArrayList;
 
+/**
+ *
+ */
 public class ColumnCollection extends ArrayList<Column>{
 
 	private static final long serialVersionUID = -3399188477563370223L;

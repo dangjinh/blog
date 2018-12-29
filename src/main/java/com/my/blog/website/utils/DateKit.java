@@ -7,7 +7,14 @@ import java.text.SimpleDateFormat;
 import java.util.*;
 
 /**
- * Created by Administrator on 2017/3/10 010.
+ * ************************************
+ *
+ * @ClassName: DateKit
+ * @Auther: dangjinhu
+ * @Date: 2018/3/10
+ * @Description: 主题公共函数
+ * @Copyright: All rights reserver.
+ * ************************************
  */
 public class DateKit {
     public static final int INTERVAL_DAY = 1;

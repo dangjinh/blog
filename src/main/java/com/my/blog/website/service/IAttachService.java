@@ -4,7 +4,14 @@ import com.github.pagehelper.PageInfo;
 import com.my.blog.website.modal.Vo.AttachVo;
 
 /**
- * Created by wangq on 2017/3/20.
+ * ************************************
+ *
+ * @InterfaceName: IAttachService
+ * @Auther: dangjinhu
+ * @Date: 2018/3/20
+ * @Description:
+ * @Copyright: All rights reserver.
+ * ************************************
  */
 public interface IAttachService {
     /**

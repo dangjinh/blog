@@ -5,9 +5,16 @@ import com.my.blog.website.modal.Vo.MetaVo;
 
 import java.util.List;
 
+
 /**
- * 分类信息service接口
- * Created by BlueT on 2017/3/17.
+ * ************************************
+ *
+ * @InterfaceName: IMetaService
+ * @Auther: dangjinhu
+ * @Date: 2018/3/20
+ * @Description:
+ * @Copyright: All rights reserver.
+ * ************************************
  */
 public interface IMetaService {
     /**

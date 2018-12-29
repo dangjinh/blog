@@ -14,8 +14,14 @@ import org.springframework.transaction.annotation.Transactional;
 import javax.annotation.Resource;
 
 /**
- * 测试数据库事务
- * Created by BlueT on 2017/3/8.
+ * ************************************
+ *
+ * @ClassName: TranscationTest
+ * @Auther: dangjinhu
+ * @Date: 2018/3/8
+ * @Description: 测试
+ * @Copyright: All rights reserver.
+ * ************************************
  */
 @MapperScan("com.my.blog.website.dao")
 @RunWith(SpringRunner.class)

@@ -3,8 +3,16 @@ package com.my.blog.website.modal.Vo;
 import java.io.Serializable;
 
 /**
- * @author 
+ * ************************************
+ *
+ * @ClassName: ContentVo
+ * @Auther: dangjinhu
+ * @Date: 2018/2/20
+ * @Description:
+ * @Copyright: All rights reserver.
+ * ************************************
  */
+
 public class ContentVo implements Serializable {
     /**
      * post表主键

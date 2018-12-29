@@ -4,9 +4,14 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * map缓存实现
- * <p>
- * Created by 13 on 2017/2/7.
+ * ************************************
+ *
+ * @ClassName: MapCache
+ * @Auther: dangjinhu
+ * @Date: 2018/3/13
+ * @Description: map缓存实现
+ * @Copyright: All rights reserver.
+ * ************************************
  */
 public class MapCache {
 

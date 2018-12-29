@@ -30,10 +30,16 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * 附件管理
+ * ************************************
  *
- * Created by 13 on 2017/2/21.
+ * @ClassName: AttachController
+ * @Auther: dangjinhu
+ * @Date: 2018/2/21
+ * @Description: 附件管理
+ * @Copyright: All rights reserver.
+ * ************************************
  */
+
 @Controller
 @RequestMapping("admin/attach")
 public class AttachController extends BaseController {

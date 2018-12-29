@@ -3,8 +3,16 @@ package com.my.blog.website.modal.Bo;
 import java.io.Serializable;
 
 /**
- * Created by 13 on 2017/2/25.
+ * ************************************
+ *
+ * @ClassName: BackResponseBo
+ * @Auther: dangjinhu
+ * @Date: 2018/2/23
+ * @Description:
+ * @Copyright: All rights reserver.
+ * ************************************
  */
+
 public class BackResponseBo implements Serializable {
 
     private String attachPath;

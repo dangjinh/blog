@@ -8,8 +8,16 @@ import java.util.Map;
 import java.util.Set;
 
 /**
- * Created by BlueT on 2017/3/3.
+ * ************************************
+ *
+ * @ClassName: WebConst
+ * @Auther: dangjinhu
+ * @Date: 2018/3/3
+ * @Description:
+ * @Copyright: All rights reserver.
+ * ************************************
  */
+
 @Component
 public class WebConst {
     /**

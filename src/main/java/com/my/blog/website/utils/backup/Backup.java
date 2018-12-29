@@ -11,6 +11,9 @@ import java.sql.Types;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 
+/**
+ *
+ */
 public class Backup {
 	private Connection connection;
 	private TableCollection tables;

@@ -5,10 +5,15 @@ import java.net.InetAddress;
 import java.net.NetworkInterface;
 import java.net.SocketException;
 import java.util.Enumeration;
-
 /**
- * ip工具类
- * Created by BlueT on 2017/3/9.
+ * ************************************
+ *
+ * @ClassName: IPKit
+ * @Auther: dangjinhu
+ * @Date: 2018/3/9
+ * @Description: IP工具类
+ * @Copyright: All rights reserver.
+ * ************************************
  */
 public class IPKit {
     /**

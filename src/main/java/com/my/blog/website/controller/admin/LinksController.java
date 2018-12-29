@@ -17,8 +17,16 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
 /**
- * Created by 13 on 2017/2/21.
+ * ************************************
+ *
+ * @ClassName: LinksController
+ * @Auther: dangjinhu
+ * @Date: 2018/2/21
+ * @Description:
+ * @Copyright: All rights reserver.
+ * ************************************
  */
+
 @Controller
 @RequestMapping("admin/links")
 public class LinksController extends BaseController {

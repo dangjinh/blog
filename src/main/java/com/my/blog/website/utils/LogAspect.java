@@ -16,8 +16,14 @@ import javax.sql.DataSource;
 import java.util.Arrays;
 
 /**
- * 借口aop
- * Created by wangq on 2017/3/24.
+ * ************************************
+ *
+ * @ClassName: LogAspect
+ * @Auther: dangjinhu
+ * @Date: 2018/3/13
+ * @Description: aop
+ * @Copyright: All rights reserver.
+ * ************************************
  */
 @Aspect
 @Component

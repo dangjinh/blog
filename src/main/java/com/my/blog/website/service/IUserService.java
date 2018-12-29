@@ -3,7 +3,14 @@ package com.my.blog.website.service;
 import com.my.blog.website.modal.Vo.UserVo;
 
 /**
- * Created by BlueT on 2017/3/3.
+ * ************************************
+ *
+ * @InterfaceName: IUserService
+ * @Auther: dangjinhu
+ * @Date: 2018/3/20
+ * @Description:
+ * @Copyright: All rights reserver.
+ * ************************************
  */
 public interface IUserService {
 

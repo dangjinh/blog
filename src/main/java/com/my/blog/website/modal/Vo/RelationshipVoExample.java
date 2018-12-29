@@ -2,7 +2,16 @@ package com.my.blog.website.modal.Vo;
 
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+ * ************************************
+ *
+ * @ClassName: RelationshipVoExample
+ * @Auther: dangjinhu
+ * @Date: 2018/2/20
+ * @Description:
+ * @Copyright: All rights reserver.
+ * ************************************
+ */
 public class RelationshipVoExample {
     protected String orderByClause;
 

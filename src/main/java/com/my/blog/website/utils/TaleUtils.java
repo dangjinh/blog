@@ -29,9 +29,14 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * Tale工具类
- * <p>
- * Created by 13 on 2017/2/21.
+ * ************************************
+ *
+ * @ClassName: TaleUtils
+ * @Auther: dangjinhu
+ * @Date: 2018/2/12
+ * @Description: tale工具类
+ * @Copyright: All rights reserver.
+ * ************************************
  */
 public class TaleUtils {
     private static final Logger LOGGER = LoggerFactory.getLogger(TaleUtils.class);

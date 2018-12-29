@@ -3,8 +3,16 @@ package com.my.blog.website.modal.Vo;
 import java.io.Serializable;
 
 /**
- * @author 
+ * ************************************
+ *
+ * @ClassName: LogVo
+ * @Auther: dangjinhu
+ * @Date: 2018/2/20
+ * @Description:
+ * @Copyright: All rights reserver.
+ * ************************************
  */
+
 public class LogVo implements Serializable {
     /**
      * 日志主键

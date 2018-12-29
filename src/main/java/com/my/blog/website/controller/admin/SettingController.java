@@ -24,9 +24,18 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+
 /**
- * Created by wangq on 2017/3/20.
+ * ************************************
+ *
+ * @ClassName: SettingController
+ * @Auther: dangjinhu
+ * @Date: 2018/2/21
+ * @Description:
+ * @Copyright: All rights reserver.
+ * ************************************
  */
+
 @Controller
 @RequestMapping("/admin/setting")
 public class SettingController extends BaseController {

@@ -32,7 +32,14 @@ import java.nio.charset.Charset;
 import java.util.*;
 
 /**
- * Created by BlueT on 2017/3/7.
+ * ************************************
+ *
+ * @ClassName: SiteServiceImpl
+ * @Auther: dangjinhu
+ * @Date: 2018/3/21
+ * @Description:
+ * @Copyright: All rights reserver.
+ * ************************************
  */
 @Service
 public class SiteServiceImpl implements ISiteService {

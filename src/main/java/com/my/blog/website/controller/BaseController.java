@@ -7,8 +7,16 @@ import com.my.blog.website.utils.MapCache;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * Created by 13 on 2017/2/21.
+ * ************************************
+ *
+ * @ClassName: BaseController
+ * @Auther: dangjinhu
+ * @Date: 2018/2/21
+ * @Description:
+ * @Copyright: All rights reserver.
+ * ************************************
  */
+
 public abstract class BaseController {
 
     public static String THEME = "themes/default";

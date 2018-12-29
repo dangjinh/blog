@@ -6,8 +6,16 @@ import java.io.Serializable;
 import java.util.List;
 
 /**
- * Created by 13 on 2017/2/23.
+ * ************************************
+ *
+ * @ClassName: ArchiveBo
+ * @Auther: dangjinhu
+ * @Date: 2018/2/23
+ * @Description:
+ * @Copyright: All rights reserver.
+ * ************************************
  */
+
 public class ArchiveBo implements Serializable {
 
     private String date;

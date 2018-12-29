@@ -3,8 +3,16 @@ package com.my.blog.website.modal.Bo;
 import java.io.Serializable;
 
 /**
- * 后台统计对象
+ * ************************************
+ *
+ * @ClassName: RestResponseBo
+ * @Auther: dangjinhu
+ * @Date: 2018/2/23
+ * @Description: 后台统计对象
+ * @Copyright: All rights reserver.
+ * ************************************
  */
+
 public class StatisticsBo implements Serializable {
 
     private Long articles;

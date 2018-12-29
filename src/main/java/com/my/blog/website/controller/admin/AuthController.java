@@ -25,9 +25,16 @@ import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
 /**
- * 用户后台登录/登出
- * Created by BlueT on 2017/3/11.
+ * ************************************
+ *
+ * @ClassName: AuthController
+ * @Auther: dangjinhu
+ * @Date: 2018/2/21
+ * @Description: 用户后台登录/登出
+ * @Copyright: All rights reserver.
+ * ************************************
  */
+
 @Controller
 @RequestMapping("/admin")
 @Transactional(rollbackFor = TipException.class)

@@ -3,7 +3,14 @@ package com.my.blog.website.modal.Vo;
 import java.io.Serializable;
 
 /**
- * @author 
+ * ************************************
+ *
+ * @ClassName: UserVo
+ * @Auther: dangjinhu
+ * @Date: 2018/2/20
+ * @Description:
+ * @Copyright: All rights reserver.
+ * ************************************
  */
 public class UserVo implements Serializable {
     /**

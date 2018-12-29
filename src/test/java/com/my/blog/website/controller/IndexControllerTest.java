@@ -17,8 +17,14 @@ import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 import static org.junit.Assert.*;
 
 /**
- * 接口测试方法
- * Created by BlueT on 2017/3/22.
+ * ************************************
+ *
+ * @ClassName: IndexControllerTest
+ * @Auther: dangjinhu
+ * @Date: 2018/3/22
+ * @Description: 接口测试方法
+ * @Copyright: All rights reserver.
+ * ************************************
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest

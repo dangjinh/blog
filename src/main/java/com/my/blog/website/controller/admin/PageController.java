@@ -22,8 +22,16 @@ import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * Created by 13 on 2017/2/21.
+ * ************************************
+ *
+ * @ClassName: PageController
+ * @Auther: dangjinhu
+ * @Date: 2018/2/21
+ * @Description:
+ * @Copyright: All rights reserver.
+ * ************************************
  */
+
 @Controller()
 @RequestMapping("admin/page")
 public class PageController extends BaseController {

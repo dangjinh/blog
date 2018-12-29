@@ -14,8 +14,14 @@ import java.util.Random;
 import java.util.concurrent.Future;
 
 /**
- * 测试异步调用
- * Created by Administrator on 2017/3/6 006.
+ * ************************************
+ *
+ * @ClassName: AsyncTest
+ * @Auther: dangjinhu
+ * @Date: 2018/3/6
+ * @Description: 测试异步调用
+ * @Copyright: All rights reserver.
+ * ************************************
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest

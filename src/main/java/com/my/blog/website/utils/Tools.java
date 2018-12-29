@@ -13,8 +13,14 @@ import java.nio.channels.FileChannel;
 import java.util.Random;
 
 /**
- * 工具类
- * Created by BlueT on 2017/3/9.
+ * ************************************
+ *
+ * @ClassName: Tools
+ * @Auther: dangjinhu
+ * @Date: 2018/3/9
+ * @Description: 工具类
+ * @Copyright: All rights reserver.
+ * ************************************
  */
 public class Tools {
     private static final Random random = new Random();

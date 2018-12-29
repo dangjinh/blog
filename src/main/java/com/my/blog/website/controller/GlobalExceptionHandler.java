@@ -7,8 +7,16 @@ import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
 /**
- * Created by BlueT on 2017/3/4.
+ * ************************************
+ *
+ * @ClassName: GlobalExceptionHandler
+ * @Auther: dangjinhu
+ * @Date: 2018/3/4
+ * @Description:
+ * @Copyright: All rights reserver.
+ * ************************************
  */
+
 @ControllerAdvice
 public class GlobalExceptionHandler {
     private static final Logger LOGGER = LoggerFactory.getLogger(GlobalExceptionHandler.class);

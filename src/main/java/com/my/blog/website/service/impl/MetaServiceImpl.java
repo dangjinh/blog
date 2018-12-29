@@ -23,7 +23,14 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by BlueT on 2017/3/17.
+ * ************************************
+ *
+ * @ClassName: MetaServiceImpl
+ * @Auther: dangjinhu
+ * @Date: 2018/3/21
+ * @Description:
+ * @Copyright: All rights reserver.
+ * ************************************
  */
 @Service
 public class MetaServiceImpl implements IMetaService {

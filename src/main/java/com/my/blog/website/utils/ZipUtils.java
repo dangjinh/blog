@@ -7,7 +7,14 @@ import java.util.zip.ZipEntry;
 import java.util.zip.ZipOutputStream;
 
 /**
- * zip压缩工具类
+ * ************************************
+ *
+ * @ClassName: ZipUtils
+ * @Auther: dangjinhu
+ * @Date: 2018/3/13
+ * @Description: zip压缩工具类
+ * @Copyright: All rights reserver.
+ * ************************************
  */
 public class ZipUtils {
 

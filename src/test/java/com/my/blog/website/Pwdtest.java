@@ -4,7 +4,14 @@ import com.my.blog.website.modal.Vo.UserVo;
 import com.my.blog.website.utils.TaleUtils;
 
 /**
- * Created by shuaihan on 2017/4/2.
+ * ************************************
+ *
+ * @ClassName: Pwdtest
+ * @Auther: dangjinhu
+ * @Date: 2018/4/2
+ * @Description: 接口测试方法
+ * @Copyright: All rights reserver.
+ * ************************************
  */
 public class Pwdtest {
     public static void main(String args[]){

@@ -3,8 +3,14 @@ package com.my.blog.website.utils;
 import com.google.gson.Gson;
 
 /**
- * json转换工具
- * Created by Administrator on 2017/3/13 013.
+ * ************************************
+ *
+ * @ClassName: GsonUtils
+ * @Auther: dangjinhu
+ * @Date: 2018/3/13
+ * @Description: json转换工具
+ * @Copyright: All rights reserver.
+ * ************************************
  */
 public class GsonUtils {
 

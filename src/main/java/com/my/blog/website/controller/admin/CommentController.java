@@ -21,8 +21,16 @@ import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * Created by 13 on 2017/2/26.
+ * ************************************
+ *
+ * @ClassName: CommentController
+ * @Auther: dangjinhu
+ * @Date: 2018/2/21
+ * @Description:
+ * @Copyright: All rights reserver.
+ * ************************************
  */
+
 @Controller
 @RequestMapping("admin/comments")
 public class CommentController extends BaseController {

@@ -36,9 +36,16 @@ import java.net.URLEncoder;
 import java.util.List;
 
 /**
- * 首页
- * Created by Administrator on 2017/3/8 008.
+ * ************************************
+ *
+ * @ClassName: IndexController
+ * @Auther: dangjinhu
+ * @Date: 2018/3/4
+ * @Description: 首页
+ * @Copyright: All rights reserver.
+ * ************************************
  */
+
 @Controller
 public class IndexController extends BaseController {
     private static final Logger LOGGER = LoggerFactory.getLogger(IndexController.class);

@@ -1,5 +1,8 @@
 package com.my.blog.website.utils.backup;
 
+/**
+ *
+ */
 public class FK {
     private String column;
     private Table referenceTable;

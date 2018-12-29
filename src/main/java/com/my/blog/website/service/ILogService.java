@@ -5,7 +5,14 @@ import com.my.blog.website.modal.Vo.LogVo;
 import java.util.List;
 
 /**
- * Created by BlueT on 2017/3/4.
+ * ************************************
+ *
+ * @InterfaceName: ILogService
+ * @Auther: dangjinhu
+ * @Date: 2018/3/20
+ * @Description:
+ * @Copyright: All rights reserver.
+ * ************************************
  */
 public interface ILogService {
 

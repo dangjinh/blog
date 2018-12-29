@@ -5,9 +5,17 @@ import com.my.blog.website.modal.Vo.CommentVo;
 import java.util.List;
 
 /**
- * 返回页面的评论，包含父子评论内容
- * Created by 13 on 2017/2/24.
+ * ************************************
+ *
+ * @ClassName: CommentBo
+ * @Auther: dangjinhu
+ * @Date: 2018/2/23
+ * @Description: 返回页面的评论，包含父子评论内容
+ * @Copyright: All rights reserver.
+ * ************************************
  */
+
+
 public class CommentBo extends CommentVo {
 
     private int levels;

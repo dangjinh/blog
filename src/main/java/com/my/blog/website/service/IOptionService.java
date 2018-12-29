@@ -6,8 +6,14 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * options的接口
- * Created by BlueT on 2017/3/7.
+ * ************************************
+ *
+ * @InterfaceName: IOptionService
+ * @Auther: dangjinhu
+ * @Date: 2018/3/20
+ * @Description:
+ * @Copyright: All rights reserver.
+ * ************************************
  */
 public interface IOptionService {
 

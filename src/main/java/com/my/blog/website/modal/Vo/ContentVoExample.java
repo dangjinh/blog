@@ -3,6 +3,17 @@ package com.my.blog.website.modal.Vo;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * ************************************
+ *
+ * @ClassName: ContentVoExample
+ * @Auther: dangjinhu
+ * @Date: 2018/2/20
+ * @Description:
+ * @Copyright: All rights reserver.
+ * ************************************
+ */
+
 public class ContentVoExample {
     protected String orderByClause;
 

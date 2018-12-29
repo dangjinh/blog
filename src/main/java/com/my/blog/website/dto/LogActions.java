@@ -1,8 +1,14 @@
 package com.my.blog.website.dto;
 
 /**
- * 日志表的action字段
- * Created by BlueT on 2017/3/4.
+ * ************************************
+ *
+ * @ClassName: LogActions
+ * @Auther: dangjinhu
+ * @Date: 2018/3/4
+ * @Description: 建立数据库连接的参数对象
+ * @Copyright: All rights reserver.
+ * ************************************
  */
 public enum LogActions {
 

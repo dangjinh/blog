@@ -22,7 +22,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by BlueT on 2017/3/16.
+ * ************************************
+ *
+ * @ClassName: CommentServiceImpl
+ * @Auther: dangjinhu
+ * @Date: 2018/3/21
+ * @Description:
+ * @Copyright: All rights reserver.
+ * ************************************
  */
 @Service
 public class CommentServiceImpl implements ICommentService {

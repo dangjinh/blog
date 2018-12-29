@@ -1,9 +1,15 @@
 package com.my.blog.website.utils;
 
 /**
- * Created by BlueT on 2017/3/16.
+ * ************************************
+ *
+ * @ClassName: PatternKit
+ * @Auther: dangjinhu
+ * @Date: 2018/3/16
+ * @Description:
+ * @Copyright: All rights reserver.
+ * ************************************
  */
-
 import java.util.regex.Pattern;
 
 /**

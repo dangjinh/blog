@@ -1,10 +1,16 @@
 package com.my.blog.website.modal.Bo;
 
 /**
- * rest返回对象
- *^
- * @param <T>
+ * ************************************
+ *
+ * @ClassName: RestResponseBo
+ * @Auther: dangjinhu
+ * @Date: 2018/2/23
+ * @Description: rest返回对象
+ * @Copyright: All rights reserver.
+ * ************************************
  */
+
 public class RestResponseBo<T> {
 
     /**
