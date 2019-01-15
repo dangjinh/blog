@@ -88,7 +88,7 @@ public class AttachController extends BaseController {
         try {
             for (MultipartFile multipartFile : multipartFiles) {
                 String fname = multipartFile.getOriginalFilename();
-                if (multipartFile.getSize() <= WebConst.MAX_FILE_SIZE) {
+                if (multipartFile.getSize() / 1024 <= WebConst.MAX_FILE_SIZE) {
                     String fkey = TaleUtils.getFileKey(fname);
                     String ftype = TaleUtils.isImage(multipartFile.getInputStream()) ? Types.IMAGE.getType() : Types.FILE.getType();
                     File file = new File(CLASSPATH+fkey);

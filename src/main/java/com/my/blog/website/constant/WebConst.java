@@ -60,12 +60,13 @@ public class WebConst {
     /**
      * 点击次数超过多少更新到数据库
      */
-    public static final int HIT_EXCEED = 1;
+    public static final int HIT_EXCEED = 0;
 
     /**
      * 上传文件最大1M
      */
-    public static Integer MAX_FILE_SIZE = 10485760;
+    public static Integer MAX_FILE_SIZE = 51201024;
+    //1048576
 
     /**
      * 要过滤的ip列表
