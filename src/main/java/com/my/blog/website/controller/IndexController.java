@@ -348,21 +348,12 @@ public class IndexController extends BaseController {
      * @param chits
      */
     @Transactional(rollbackFor = TipException.class)
-    private void updateArticleHit(Integer cid, Integer chits) {
-        Integer hits = cache.hget("article", "hits");
-        if (chits == null) {
-            chits = 0;
-        }
-        hits = null == hits ? 1 : hits + 1;
-        if (hits >= WebConst.HIT_EXCEED) {
-            ContentVo temp = new ContentVo();
-            temp.setCid(cid);
-            temp.setHits(chits + hits);
-            contentService.updateContentByCid(temp);
-            cache.hset("article", "hits", 1);
-        } else {
-            cache.hset("article", "hits", hits);
-        }
+    void updateArticleHit(Integer cid, Integer chits) {
+        // 可做缓存记录
+        ContentVo temp = new ContentVo();
+        temp.setCid(cid);
+        temp.setHits(chits + 1);
+        contentService.updateContentByCid(temp);
     }
 
     /**
