@@ -73,7 +73,7 @@ public final class Commons {
      * @return
      */
     public static String site_login() {
-        return "admin/login";
+        return "dang/login";
     }
 
     /**
@@ -164,6 +164,7 @@ public final class Commons {
      * @return
      */
     public static String gravatar(String email) {
+        //String avatarUrl = "https://secure.gravatar.com/avatar";
         String avatarUrl = "https://secure.gravatar.com/avatar";
         if (StringUtils.isBlank(email)) {
             return avatarUrl;
@@ -307,7 +308,7 @@ public final class Commons {
      */
     public static String show_thumb(ContentVo contents) {
         int cid = contents.getCid();
-        int size = cid % 20;
+        int size = cid % 30;
         size = size == 0 ? 1 : size;
         return "/user/img/rand/" + size + ".jpg";
     }

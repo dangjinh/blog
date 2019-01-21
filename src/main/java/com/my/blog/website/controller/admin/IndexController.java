@@ -89,7 +89,7 @@ public class IndexController extends BaseController {
     @GetMapping(value = "logout")
     public String logout() {
         System.out.println("index-----------logout");
-        return "admin/login";
+        return "dang/login";
     }
 
 
