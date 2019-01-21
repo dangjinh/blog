@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org" th:with="pic=${commons.random(5, '.png')}" th:style="'background:url(/admin/images/bg/'+@{${pic}}+');no-repeat; background-size: cover;'">
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:with="pic=${commons.random(1, '.png')}" th:style="'background:url(/admin/images/bg/'+@{${pic}}+');no-repeat; background-size: cover;'">
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
@@ -46,40 +46,42 @@
             text-shadow: 0px 2px 3px #555;
             color: #cac9c8;
         }
+
     </style>
 
 </head>
 <body th:style="'background:url(/admin/images/bg/'+@{${pic}}+');no-repeat; background-size: cover;'" >
 <div style="margin: 0 auto; padding-bottom: 0%; padding-top: 7.5%; width: 380px;">
     <div class="panel panel-color panel-danger panel-pages panel-shadow">
-        <div class="panel-heading bg-img">
+        <div class="panel-heading" style="background-color: #9dc8e2">
             <div class="bg-overlay"></div>
             <h3 class="text-center m-t-10"> Login My Blog</h3>
         </div>
-        <div class="panel-body">
+        <div class="panel-body bg-img" style="background-color:rgba(255,255,255,0.5)">
             <form class="form-horizontal m-t-20" method="post" id="loginForm" onsubmit="return checkForm()">
                 <div class="form-group">
                     <div class="col-xs-12">
-                        <input class=" input-lg input-border" name="username" type="text" required=""
+                        <input style="background-color:transparent;border:0px" class=" input-lg input-border" name="username" type="text" required=""
                                placeholder="账号:"/>
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="col-xs-12">
-                        <input class=" input-lg input-border" name="password" type="password" required=""
+                        <input style="background-color:transparent;border:0px" class="input-lg input-border" name="password" type="password" required=""
                                placeholder="密码:"/>
                     </div>
                 </div>
-                <div class="form-group">
+            <!--    <div class="form-group">
                     <div class="col-xs-12">
                         <div class="checkbox checkbox-danger">
                             <input id="checkbox-signup" name="remeber_me" type="checkbox"/>
-                            <label for="checkbox-signup">记住我</label>
+                            <label style="color: #2f353f" for="checkbox-signup">点我</label>
                         </div>
                     </div>
-                </div>
+                </div>-->
+                <div></div>
                 <div class="form-group text-center m-t-40">
-                    <div class="col-xs-12">
+                    <div class="col-xs-12" style="background-color:transparent;border:0px">
                         <button class="btn btn-danger btn-lg btn-rounded btn-block w-lg waves-effect waves-light" style="box-shadow: 0px 0px 4px #868282;" type="submit">登&nbsp;录
                         </button>
                     </div>
@@ -98,7 +100,7 @@
     var tale = new $.tale();
     function checkForm() {
         tale.post({
-            url: '/admin/login',
+            url: '/dang/login',
             data: $("#loginForm").serialize(),
             success: function (result) {
                 if (result && result.success) {
